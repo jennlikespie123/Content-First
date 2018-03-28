@@ -1,7 +1,7 @@
 body {
 font-family: times new roman;
-background-color: rgb(204,153,102, 0.25);
-opacity;
+background-color: rgb(204,153,102,0.25);
+font-size: 12pt;
 }
 
 .title {
@@ -23,34 +23,41 @@ padding: 17px 0px;
 margin-top: 30px;
 }
 
+.titles {
+font-size: 115%;
+padding-left:10%;
+color: #ff6633;
+}
+
 .about {
 padding-left: 11%;
 padding-right: 11%;
-text-indent: 40px;
 line-height: 25px;
 font-size: 14pt
 }
 
 .characters {
-
+font-size: 700%;
+padding-left: 11%;
+padding-right: 20%;
 }
 
 
 .stylesandweights {
+text-align: left;
+padding-left: 11%;
+font-size: 250%;
+line-height: 150%;
 
+
+textarea {
+font: times new roman;
+font-size: 110%;
+padding-left: 11%;
 }
 
-.tryme {
 
-}
-
-.about {
-
-}
-
-
-
-a {
+a:link {
 color: #ff6633;
 text-decoration: none;
 }
@@ -60,13 +67,12 @@ color: #333;
 text-decoration: none;
 }
 
-
-
-.stylesandweights {
-text-align: left;
-padding-left: 8%;
-font-size: 250%;
+a:visited {
+color: #ff6633;
+text-decoration: none;
 }
+
+
 
 .cool {
 font-size: 3000%
