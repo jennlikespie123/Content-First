@@ -1,97 +1,143 @@
 body {
-font-family: times new roman;
-background-color: rgb(204,153,102,0.25);
-font-size: 12pt;
-margin-top: 20px;
+	font-family: times new roman;
+	background-color: rgb(204,153,102,0.25);
+	font-size: 12pt;
+	margin-top: 20px;
+	max-width: 960px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 a:link {
-color: #ff6633;
-text-decoration: none;
+	color: #ff6633;
+	text-decoration: none;
 }
 
 a:hover {
-color: black;
-text-decoration: none;
+	color: black;
+	text-decoration: none;
 }
 
 a:visited {
-color: #ff6633;
-text-decoration: none;
+	color: #ff6633;
+	text-decoration: none;
 }
 
 .image {
-text-align: center;
+	text-align: center;
 }
 
 .image img {
-max-width: 35%;
+	max-width: 35%;
 }
 
 .title {
-font-size: 650%;
-text-align: center;
+	font-size: 600%;
+	text-align: center;
 }
 
 .tagline {
-font-size: 140%;
-text-align: center;
+	font-size: 140%;
+	text-align: center;
 }
 
 
 .navigation {
-text-align: center;
-border-top: 2px solid rgb(255,153,102, 0.65);
-border-bottom: 2px solid rgb(255,153,102, 0.65);
-padding: 17px 0px;
-margin-top: 30px;
+	text-align: center;
+	border-top: 2px solid rgb(255,153,102, 0.65);
+	border-bottom: 2px solid rgb(255,153,102, 0.65);
+	padding: 17px 0px;
+	margin-top: 30px;
 }
 
 .titles {
-font-size: 115%;
-padding-left:10%;
-color: #ff6633;
+	font-size: 115%;
+	color: #ff6633;
 }
 
 .about {
-padding-left: 11%;
-padding-right: 11%;
-line-height: 25px;
-font-size: 14pt
+	line-height: 25px;
+	font-size: 14pt;
+	padding-left: 3%;
+	padding-right: 3%;
 }
 
 .characters {
-font-size: 700%;
-padding-left: 11%;
-padding-right: 20%;
+	font-size: 700%;
+	padding-left: 3%;
+	padding-right: 10%;
 }
 
 
 .stylesandweights {
-text-align: left;
-padding-left: 11%;
-font-size: 250%;
-line-height: 150%;
+	float: left;
+	font-size: 240%;
+	line-height: 150%;
+	padding-left: 3%;
+	padding-right: 3%;
+}
+	
+.names {
+	float: right;
+	font-size: 240%;
+	line-height: 150%;
 }
 
 .tryme {
-padding-left: 11%;
-font-size: 120%;
+	padding-left: 3%;
+	font-size: 120%;
+	padding-right: 3%;
 }
 
 textarea {
-font-family: times new roman;
-font-size: 110%;
+	font-family: times new roman;
+	font-size: 110%;
 }
 
 ::placeholder {
-font-style:italic;
-font-size: 120%;
+	font-style:italic;
+	font-size: 120%;
 }
 
 .designers {
-padding-left: 11%;
-padding-right: 11%;
-line-height: 25px;
-font-size: 14pt
+	padding-left: 3%;
+	line-height: 25px;
+	font-size: 14pt;
+	padding-right: 3%;
+}
+
+
+.morrison {
+  border-radius: 50%;
+  width: 275px ;
+  float: left;
+  margin-left: 120px;
+}
+
+.lardent {
+	border-radius: 50%;
+	width: 275px;
+	float: right;
+	margin-right: 120px;
+}
+  
+.morrisontext {
+float: left;
+margin-left: 200px;
+}
+
+.lardenttext {
+float:right;
+margin-right: 205px;
+}
+
+
+.lmao {
+text-align: center;
+font-size: 80%;
+}
+
+
+.backtotop {
+    text-align: center;
 }
