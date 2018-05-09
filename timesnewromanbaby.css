@@ -1,11 +1,12 @@
 body {
 	font-family: times new roman;
 	background-color: rgb(204,153,102,0.25);
-	font-size: 12pt;
+	font-size: 1em;
 	margin-top: 20px;
 	max-width: 960px;
 	margin-left: auto;
 	margin-right: auto;
+	line-height: 1.5;
 }
 
 a:link {
@@ -34,12 +35,12 @@ a:visited {
 .title {
 	font-size: 600%;
 	text-align: center;
-}
+	}
 
 .tagline {
 	font-size: 140%;
 	text-align: center;
-}
+	}
 
 
 .navigation {
@@ -48,25 +49,25 @@ a:visited {
 	border-bottom: 2px solid rgb(255,153,102, 0.65);
 	padding: 17px 0px;
 	margin-top: 30px;
-}
+	}
 
 .titles {
 	font-size: 115%;
 	color: #ff6633;
-}
+	}
 
 .about {
 	line-height: 25px;
 	font-size: 14pt;
 	padding-left: 3%;
 	padding-right: 3%;
-}
+	}
 
 .characters {
 	font-size: 700%;
 	padding-left: 3%;
 	padding-right: 10%;
-}
+	}
 
 
 .stylesandweights {
@@ -75,36 +76,36 @@ a:visited {
 	line-height: 150%;
 	padding-left: 3%;
 	padding-right: 3%;
-}
+	}
 	
 .names {
 	float: right;
 	font-size: 240%;
 	line-height: 150%;
-}
+	}
 
 .tryme {
 	padding-left: 3%;
 	font-size: 120%;
 	padding-right: 3%;
-}
+	}
 
 textarea {
 	font-family: times new roman;
 	font-size: 110%;
-}
+	}
 
 ::placeholder {
 	font-style:italic;
 	font-size: 120%;
-}
+	}
 
 .designers {
 	padding-left: 3%;
 	line-height: 25px;
 	font-size: 14pt;
 	padding-right: 3%;
-}
+	}
 
 
 .morrison {
@@ -112,32 +113,77 @@ textarea {
   width: 275px ;
   float: left;
   margin-left: 120px;
-}
+	}
 
 .lardent {
 	border-radius: 50%;
 	width: 275px;
 	float: right;
 	margin-right: 120px;
-}
+	}
   
 .morrisontext {
-float: left;
-margin-left: 200px;
-}
+	float: left;
+	margin-left: 200px;
+	}
 
 .lardenttext {
-float:right;
-margin-right: 205px;
-}
+	float:right;
+	margin-right: 205px;
+	}
 
 
 .lmao {
-text-align: center;
-font-size: 80%;
-}
+	text-align: center;
+	font-size: 80%;
+	}
 
 
 .backtotop {
     text-align: center;
-}
+	}
+
+
+
+@media only screen and (max-device-width: 600px) {
+	
+br {
+	display:none;
+	}
+
+section {
+	padding-bottom: 30px;
+	}
+	
+body {
+	line-height: 1.5;
+	}
+	
+.about {
+	line-height: 1.5;
+	}
+
+.stylesandweights {
+	line-height: 1.5;
+	}
+	
+.tryme {
+	line-height: 1.5;
+	}
+
+.designers {
+	line-height: 1.5;
+	}
+
+.lmao {
+	padding-top: 1000px;
+	}
+
+
+	}
+
+
+
+
+
+
